@@ -1,0 +1,15 @@
+{
+  "build": {
+    "builder": "NIXPACKS",
+    "nixpacksConfig": {
+      "phases": {
+        "install": {
+          "cmds": ["./gradlew build"]
+        },
+        "start": {
+          "cmd": "./gradlew bootRun"
+        }
+      }
+    }
+  }
+}
